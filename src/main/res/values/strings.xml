@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Watch out! Bricks</string>
+    <string name="start">Start</string>
+    <string name="rank">Rank</string>
+    <string name="highest">Highest Score:</string>
+    <string-array name="medal">
+        <item>Gold</item>
+        <item>Silver</item>
+        <item>Bronze</item>
+    </string-array>
+    <string name="day">You have left %d day(s). Come and have a look.</string>
+    <string name="new_high_score">New High Score!</string>
+    <string name="restart">Restart</string>
+    <string name="homepage">Homepage</string>
+    <string name="sure">Sure</string>
+    <string name="your_username">Your username</string>
+    <string name="level">level</string>
+    <string name="simple">simple</string>
+    <string name="normal">normal</string>
+    <string name="hard">hard</string>
+    <string name="time">Time:</string>
+    <string name="score">Score:</string>
+    <string name="stop">stop</string>
+    <string name="over">Game Over!</string>
+    <string name="message">Congratulations! %s You\'re No.%s</string>
+    <string name="hint">Long Press To Choose Direction!</string>
+    <string name="shake">Tilt left and right to move!!</string>
+
+</resources>

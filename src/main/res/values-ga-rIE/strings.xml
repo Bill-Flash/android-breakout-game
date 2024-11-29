@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bi curamach! Brící</string>
+    <string name="start">Tús</string>
+    <string name="rank">Leaderboard</string>
+    <string name="highest">Scór is airde:</string>
+    <string-array name="medal">
+        <item>bonn óir</item>
+        <item>bonn airgid</item>
+        <item>bonn cré-umha</item>
+    </string-array>
+    <string name="day">Bhí tú ar shiúl ar feadh% d laethanta. Tar ar ais agus imirt!</string>
+    <string name="new_high_score">Scór Ard Nua!</string>
+    <string name="restart">Tosaigh arís</string>
+    <string name="homepage">Leathanach baile</string>
+    <string name="sure">Cinnte</string>
+    <string name="your_username">D\'ainm úsáideora</string>
+    <string name="level">leibhéal</string>
+    <string name="simple">simplí</string>
+    <string name="normal">gnáth</string>
+    <string name="hard">crua</string>
+    <string name="time">Am:</string>
+    <string name="score">Scór:</string>
+    <string name="stop">stad</string>
+    <string name="over">Cluiche críochnaithe!</string>
+    <string name="message">Comhghairdeas! %s Cé mhéad atá tú%s!</string>
+    <string name="hint">Preas Fada Chun Treoir a Roghnaigh!</string>
+    <string name="shake">Croith an gléas !!</string>
+</resources>

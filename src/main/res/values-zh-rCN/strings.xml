@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">躲着点</string>
+    <string name="highest">最高分：</string>
+    <string name="start">开始</string>
+    <string name="rank">排行榜</string>
+    <string-array name="medal">
+        <item>金牌</item>
+        <item>银牌</item>
+        <item>铜牌</item>
+    </string-array>
+    <string name="day">你已经离开%d天了。快回来玩呀！</string>
+    <string name="new_high_score">新纪录！</string>
+    <string name="restart">重新开始</string>
+    <string name="homepage">首页</string>
+    <string name="sure">确定</string>
+    <string name="your_username">你的用户名</string>
+    <string name="level">难度</string>
+    <string name="simple">简单</string>
+    <string name="normal">普通</string>
+    <string name="hard">困难</string>
+    <string name="time">时间：</string>
+    <string name="score">分数：</string>
+    <string name="stop">暂停</string>
+    <string name="over">游戏结束！</string>
+    <string name="message">恭喜你! %s 你是第%s名！</string>
+    <string name="hint">长按来决定发射角度！</string>
+    <string name="shake">左右倾斜来移动！！</string>
+</resources>

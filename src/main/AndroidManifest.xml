@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.watchoutbricks">
+    <!-- Intent and service reference from Bmob configuration doc -->
+    <!-- All Internet -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- get network state -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- get Wifi state -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- keep upload and download -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- for sd card permission of storage -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Read the state of phone and create BmobInstallation -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WatchOutBricks">
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Game"
+            android:exported="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Rank"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"/>
+
+        <provider
+            android:name="cn.bmob.v3.util.BmobContentProvider"
+            android:authorities="com.example.watchoutbricks.BmobContentProvider"/>
+
+        <service
+            android:name=".service.NotifyingService"
+            android:enabled="true"
+            android:process="system"/>
+        <service
+            android:name=".service.BGMService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.angel.Android.MUSIC" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".service.GameMusicService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.angel.Android.MUSIC" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>
